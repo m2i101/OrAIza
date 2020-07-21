@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="logo.jpg" alt="orAIza" width="200"></a>
+  <a href="#"><img src="logo.jpg" alt="orAIza" width="200"></a>
   <br>
   OrAIza
   <br>
@@ -8,7 +8,7 @@
 
 <h4 align="center">An andriod application to detect and classify paddy pest diseases.</h4>
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -27,13 +27,13 @@
 More than a billion people live in smallholder farmer households worldwide, and many of these farmers struggle with avoidable pest damage that can wipe out up to 50% of annual paddy crop yield. Abundant use of chemicals such as bactericides, fungicides, and nematicides to control plant diseases has been causing adverse effects in the agro-ecosystem. Currently, there is a need for effective early disease detection techniques to control plant diseases for food security and the sustainability of the agro-ecosystem. In this project, as farmers and agriculture program workers take regular photos of pest disease traps, AI models on their phones classify and detect the pest diseases. The data will be used to provide millions of farmers with timely, localized advice to reduce pesticide usage and improve the yield. Smartphones, in particular, offer a very novel approach to help identify diseases because of their computing power, high-resolution displays, and extensive built-in sets of accessories, such as advanced HD cameras. This app can help quickly identify paddy diseases and provide treatment information, taking us one step closer to better economic and food security.
 
 ## About The Project
-An android application is developed using a deep learning model and the transfer learning technique. We analyze the 4500 images of plant leaves, which have a spread of 4 class labels assigned to them. Each class label is a paddy pest disease such as Brownspot, Hispa, Leaf Blast. These are considered as some of the major paddy diseases. We make an attempt to predict the disease given just the image of the plant leaf. We propose a deep learning-based CNN architecture to detect and classify paddy diseases. The advancement and novelty of the developed model lie in its simplicity; healthy leaves are in line with other classes, enabling the model to distinguish between diseased leaves and healthy ones or from the environment by using CNN. We evaluate the applicability of deep convolutional neural networks for the classification problem described above. We focus on a popular architecture, namely Inception V3 is a widely-used image recognition model that has been shown to attain greater than 78.1% accuracy on the ImageNet dataset. The model itself is made up of symmetric and asymmetric building blocks, including convolutions, average pooling, max pooling, concats, dropouts, and fully connected layers. Batchnorm is used extensively throughout the model and applied to activation inputs. Loss is computed via Softmax.
+An android application is developed using a deep learning model with the transfer learning technique. Around 4500 images of plant leaves have been analyzed, which have a spread of 4 class labels assigned to them. Each class label is a paddy pest disease such as Brownspot, Hispa, Leaf Blast. These are considered as some of the major paddy diseases. An attempt is made to predict the disease given just the image of the plant leaf. A deep learning-based CNN architecture is proposed to detect and classify paddy diseases. The advancement and novelty of the developed model lie in its simplicity; healthy leaves are in line with other classes, enabling the model to distinguish between diseased leaves and healthy ones or from the environment by using CNN. The popular architecture, namely Inception V3 is a widely-used image recognition model that has been shown to attain greater than 78.1% accuracy on the ImageNet dataset. The model itself is made up of symmetric and asymmetric building blocks, including convolutions, average pooling, max pooling, concats, dropouts, and fully connected layers. Batchnorm is used extensively throughout the model and applied to activation inputs. Loss is computed via Softmax.
 A high-level diagram of the model is shown below :
 <p align="center">
   <img src="https://lh6.googleusercontent.com/DbrMv0g7ENOztmWZsaPVmjR3QcNi1DC-CyzPDuV3LsAbKJJDqBvltOefaJ-7OYkO_Q9ktO4zUZ4aup5KfvxgDYTml8uXuSH-NNLIDwHJ=s1000" width="380" height="200" alt="accessibility text">
 </p>
 
-The model is then retrained by freezing some of its layers by fine tuning.This approach is called transfer learning.The tensorflow model is then quantized to tensorflow lite model and then deployed on to a Mobile device through Android Studio application. 
+The model is then retrained by freezing some of its layers by fine tuning.This approach is called transfer learning. The tensorflow model is then quantized to tensorflow lite model and then deployed on to a Mobile device through Android Studio application. 
 
 
 ## Workflow of project
@@ -65,10 +65,12 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 
 ## Authors
+* **Manikanta Varaganti** - *Initial work* - [orAIza](https://github.com/m2i101/)
 
-| [![m2i101](https://media-exp1.licdn.com/dms/image/C5103AQFnbzGhLaOKrQ/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=LMP9_WHwpNAOvDcw-mK34W2Hlan29CyOPpykxDO1RM8)](https://linkedin.com/in/manikanta-varaganti-8b1a58182) 	|
-|:---------------------------------------------------------------------------------------------------------:	|
-|                                            **Manikanta Varaganti**                                           	|
+* **Aakanksha Thota** - *Initial work* - [orAIza](https://github.com/Aakanksha-Thota/)
+
+* **Sai Santhosh Belide** - *Initial work* - [orAIza](https://www.linkedin.com/in/sai-santhosh-belide-19349516b/)
+
 
 
 
