@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="#"><img src="logo.jpg" alt="orAIza" width="200"></a>
+  <a href="#"><img src="img/logo.jpg" alt="orAIza" width="200"></a>
   <br>
   OrAIza
   <br>
@@ -21,7 +21,7 @@
 
 # Basic Overview
 <p align="center">
-  <img src="paddy.jpeg" width="380" height="200" alt="accessibility text">
+  <img src="img/paddy.jpeg" width="380" height="200" alt="accessibility text">
 </p>
 
 More than a billion people live in smallholder farmer households worldwide, and many of these farmers struggle with avoidable pest damage that can wipe out up to 50% of annual paddy crop yield. Abundant use of chemicals such as bactericides, fungicides, and nematicides to control plant diseases has been causing adverse effects in the agro-ecosystem. Currently, there is a need for effective early disease detection techniques to control plant diseases for food security and the sustainability of the agro-ecosystem. In this project, as farmers and agriculture program workers take regular photos of pest disease traps, AI models on their phones classify and detect the pest diseases. The data will be used to provide millions of farmers with timely, localized advice to reduce pesticide usage and improve the yield. Smartphones, in particular, offer a very novel approach to help identify diseases because of their computing power, high-resolution displays, and extensive built-in sets of accessories, such as advanced HD cameras. This app can help quickly identify paddy diseases and provide treatment information, taking us one step closer to better economic and food security.
@@ -38,7 +38,7 @@ The model is then retrained by freezing some of its layers by fine tuning.This a
 
 ## Workflow of project
 <p align="center">
-  <img src="workflow.png" alt="accessibility text">
+  <img src="img/workflow.png" alt="accessibility text">
 </p>
 
 &nbsp;
@@ -48,6 +48,10 @@ Everything you need to recreate this project is on the jupyter notebook. Everyth
 You can find the requirements in [requirements.txt](requirements.txt), but everything is in the notebook, so you can install all by using pip install. I recommend using Google Colab.
 
 This project was created under the Deloitte TechnoUtsav3.0 TechE contest.
+
+## Usage
+
+Download the app from [here](https://drive.google.com/file/d/1EnDJARmmcwyV4n867OymCMOT73526-qG/view?usp=sharing)
 
 
 
