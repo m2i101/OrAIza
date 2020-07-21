@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">orAIza</string>
+    <string name="inception_quantized_classifier">Click here to Start</string>
+    <string name="paddy_disease_classifier">Crop Disease Classifier </string>
+    <string name="classify">Predict</string>
+    <string name="more">To know more:</string>
+
+    <string name="back">Back</string>
+    <string name="disease">Disease</string>
+    <string name="prob">Measures</string>
+    <string name="todo">TODO</string>
+    <string name="todo2">TODO</string>
+</resources>

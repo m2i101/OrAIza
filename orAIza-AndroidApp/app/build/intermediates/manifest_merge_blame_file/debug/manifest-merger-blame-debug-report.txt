@@ -1,0 +1,77 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.soumio.inceptiontutorial"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml
+10
+11    <!-- Needed to use camera and store photos -->
+12    <uses-feature
+12-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:6:5-8:35
+13        android:name="android.hardware.camera"
+13-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:7:9-47
+14        android:required="true" />
+14-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:8:9-32
+15    <uses-feature
+15-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:9:5-11:35
+16        android:name="android.hardware.camera.any"
+16-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:10:9-51
+17        android:required="true" />
+17-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:11:9-32
+18
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:12:5-81
+19-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:12:22-78
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:13:5-65
+20-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:13:22-62
+21
+22    <application
+22-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:15:5-32:19
+23        android:allowBackup="true"
+23-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:16:9-35
+24        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+24-->[com.android.support:support-compat:28.0.0] C:\Users\THOTA\.gradle\caches\transforms-2\files-2.1\4e7b3bbed8e6e29e2ba6d4fc6e8eccff\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:17:9-43
+27        android:label="orAIza"
+27-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:18:9-31
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:19:9-54
+29        android:supportsRtl="true"
+29-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:20:9-35
+30        android:theme="@style/AppTheme" >
+30-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:21:9-40
+31        <activity android:name="com.intel.inception.ChooseModel" >
+31-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:22:9-28:20
+31-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:22:19-46
+32            <intent-filter>
+32-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:23:13-27:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:24:17-69
+33-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:24:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:26:17-77
+35-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:26:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity android:name="com.intel.inception.Classify" />
+38-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:29:9-55
+38-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:29:19-43
+39        <!-- cropping activity -->
+40        <activity
+40-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:31:9-118
+41            android:name="com.soundcloud.android.crop.CropImageActivity"
+41-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:31:19-79
+42            android:screenOrientation="portrait" />
+42-->C:\Users\THOTA\Downloads\TensorFlow-Lite-Image-Classifier\app\src\main\AndroidManifest.xml:31:80-116
+43    </application>
+44
+45</manifest>
