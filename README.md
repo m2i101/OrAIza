@@ -73,7 +73,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 * **Aakanksha Thota** - *Initial work* - [orAIza](https://github.com/Aakanksha-Thota/)
 
-* **Sai Santhosh Belide** - *Initial work* - [orAIza](https://www.linkedin.com/in/sai-santhosh-belide-19349516b/)
+* **Sai Santhosh Belide** - *Initial work* - [orAIza](https://www.github.com/saisanthosh1299/)
 
 
 
